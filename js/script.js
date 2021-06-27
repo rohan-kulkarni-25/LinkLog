@@ -1,5 +1,5 @@
 
-fetch('../json/links.json')
+fetch('json/links.json')
     .then(response => response.json())
     .then(data => {
         let links = data;
