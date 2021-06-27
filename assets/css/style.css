@@ -1,0 +1,223 @@
+body {
+  background-image: linear-gradient(90deg, #8a2387, #e94057, #f27121);
+  width: auto;
+  margin: auto;
+}
+
+nav {
+  margin: auto;
+  height: 2em;
+  display: flex;
+  background-color: white;
+}
+
+nav img {
+  margin-left: 1em;
+}
+
+ul {
+  /* justify-content: space-around; */
+  margin: auto;
+  display: flex;
+  list-style: none;
+}
+
+li {
+  padding-left: 4em;
+  cursor: pointer;
+}
+
+li a:hover {
+  border: solid black;
+  border-top: 2px;
+  border-left: 2px;
+  border-right: 2px;
+  /* margin: 2vmin; */
+  padding-bottom: 0.5vmin;
+}
+
+.selfbox {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#avatarbox {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+#avatarbox img {
+  width: 20vmin;
+  height: 20vmin;
+  border-radius: 50%;
+}
+
+.profilebox,
+.about {
+  height: fit-content;
+  background-color: white;
+  margin-top: 5vmin;
+  padding: 3vmin;
+  border-radius: 12px;
+  border: 2px solid black;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.534);
+  /* display: none; */
+}
+
+.detailbox,
+.aboutbox {
+  text-align: center;
+}
+
+.detailbox .name {
+  /* font-size: 2em; */
+  font-size: 1.5em;
+  /* background-color: green; */
+  /* color: aliceblue; */
+}
+
+.detailbox .bio {
+  font-size: 3vmin;
+}
+
+.sociallogo img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.sociallogo img:hover {
+  box-shadow: 3px 3px 5px 5px rgb(68, 63, 63);
+  border-radius: 12px;
+  border: 2px solid black;
+  width: 50.3%;
+  cursor: pointer;
+}
+
+.socialbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 4vmin;
+}
+
+.linkbox {
+  /* background-color: white; */
+  /* background-color: linear-gradient(#83eaf1); */
+  background-color: #63a4ff;
+  background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+  height: fit-content;
+  margin-top: 5vmin;
+  border-radius: 12px;
+  border: 1px solid black;
+  box-shadow: 5px 5px #63a4ffab;
+  display: flex;
+}
+
+.linklogo img {
+  width: 5vmin;
+  padding: 3vmin;
+}
+
+.linklogo {
+  width: 15%;
+}
+
+.linkname {
+  width: 70%;
+  font-size: 4vmin;
+  padding: 3vmin;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.linkview {
+  width: 20%;
+  margin: auto;
+}
+
+.linkview button {
+  background-color: white;
+  padding: 1vmin;
+  font-size: 4vmin;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.linkview button:hover {
+  font-size: 4.5vmin;
+  cursor: pointer;
+  box-shadow: 3px 3px black;
+}
+
+.foot {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vmin;
+}
+
+@media only screen and (max-width: 900px) {
+  #avatarbox img {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+  }
+
+  .sociallogo img {
+    width: 100%;
+  }
+
+  .sociallogo img:hover {
+    box-shadow: 3px 3px 5px 5px rgb(68, 63, 63);
+    border-radius: 12px;
+    border: 2px solid black;
+    width: 100.3%;
+    cursor: pointer;
+  }
+
+  li {
+    padding-left: 1em;
+  }
+
+  li a:hover {
+    border: solid black;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    /* margin: 2vmin; */
+    padding-bottom: 0.5vmin;
+  }
+}
+
+.details {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.details img {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 12px;
+  /* height: 0vh; */
+}
+
+.socialbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sociallogo {
+  width: fit-content;
+  display: flex;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
